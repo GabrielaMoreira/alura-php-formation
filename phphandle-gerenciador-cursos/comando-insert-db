@@ -1,0 +1,1 @@
+vendor\bin\doctrine dbal:run-sql "INSERT INTO usuarios(email,senha) VALUES('aluno@email.com', '$argon2i$v=19$m=65536,t=4,p=1$MGljUE5Yd09wSnNQTHR1Rg$3pv0AoA4pSz/66PT1rA64LlZMBju3IHNPFdTtGNID1o');"

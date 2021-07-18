@@ -1,0 +1,21 @@
+{
+    "name": "gabriela/php-pdo",
+    "description": "Projeto de estudo do curso php e pdo da alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "GabrielaMoreira",
+            "email": "GabrielaMoreira@users.github.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\Pdo\\Domain\\Model\\": "src/Domain/Model/",
+            "Alura\\Pdo\\Infrastructure\\Persistence\\": "src/Infrastructure/Persistence/"
+
+        }
+    }
+}

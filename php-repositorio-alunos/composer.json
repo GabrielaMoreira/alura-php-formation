@@ -1,0 +1,23 @@
+{
+    "name": "gabriela/repositorio-alunos",
+    "description": "estudo php e pdo alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "GabrielaMoreira",
+            "email": "GabrielaMoreira@users.github.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\Pdo\\Domain\\Model\\": "src/Domain/Model/",
+            "Alura\\Pdo\\Infrastructure\\Persistence\\": "src/Infrastructure/Persistence/",
+            "Alura\\Pdo\\Domain\\Repository\\": "src/Domain/Repository/",
+            "Alura\\Pdo\\Infrastructure\\Repository\\" : "src/Infrastructure/Repository"
+
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "gabriela/doctrine1",
+    "description": "estudo de php com doctrine alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "GabrielaMoreira",
+            "email": "GabrielaMoreira@users.github.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.8",
+        "doctrine/migrations": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\Doctrini\\": "src/",
+            "alura\\Doctrini\\Helper\\" : "src/Helper/",
+            "alura\\Doctrini\\Repository\\" : "src/Repository/"
+        }
+    }
+}

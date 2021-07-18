@@ -1,0 +1,10 @@
+* baixe uma versão zip estável do php.
+* extraia o zip e cole a pasta no diretorio de preferencia.
+* abra as variaveis do sistema e cole o caminho absoluto deste diretorio (caminho com nome da pasta php) e cole no campo "path".
+* na pasta do php copie e cole o arquivo php.ini-developer e renomeie para php.ini.
+* abra o arquivo php.ini com um editor de texto e descomente a linha (extension_dir = "ext") (só remover o ; da frente)
+* descomente as linhas: (extension=curl), (extension=fileinfo), (extension=mbstring), (extension=openssl), (extension=pdo_sqlite)
+* salve e feche o arquivo.
+* no terminal digite: php - v (para verificar se a versao e extensões estão corretas)
+
+LARAVEL: composer create-project --prefer-dist laravel/laravel controle-series 5.8.*
